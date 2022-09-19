@@ -10,19 +10,25 @@ import GenrePicker from "./GenrePicker";
 function App() {
   return (
     <div className="app-container">
-
-      <Logo />
-      <Search />
-
-
-      <GenrePicker />
-      <MenuLinks />
-      <TopMenu />
       <SideMenu />
 
-      <MainContent />
+      {/* <TopMenu></TopMenu> */}
+      {/* <GenrePicker></GenrePicker> */}
+      <MainContent></MainContent>
     </div>
   );
 }
 
 export default App;
+
+/*
+      <SideMenu />
+ <TopMenu />
+      <Search />
+      <GenrePicker />
+
+      <MenuLinks />
+      <MainContent />
+      <Logo />
+
+*/
